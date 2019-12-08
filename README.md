@@ -1,5 +1,4 @@
 # ECG IIR Notch Filtering Using Transient Suppression
----
 
 This is the [Python](./python) and [MATLAB](./matlab) implementation of the algorithm proposed in
 the paper:
@@ -10,7 +9,7 @@ Full credit goes to the authors.
 
 This technique uses vector projection to minimize the problem of transient values, common to the use of IIR filters:
 
-![Median-based template of a cardiac cycle](./images/ecg_transient_suppression.png)
+![ECG filter usin an IIR notch filter with transient suppression](./images/ecg_transient_suppression.PNG)
 
 The top signal corresponds to the original ECG signal with AC interference noise. The middle signal corresponds to the filtered ECG signal using a typical IIR notch filter. The bottom signal corresponds to the filtered signal using an IIR notch filter with the proposed transient suppression technique.
 
